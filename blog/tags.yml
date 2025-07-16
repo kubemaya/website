@@ -1,0 +1,9 @@
+edge:
+  label: Edge
+  permalink: /edge
+  description: Edge Computing
+
+kubernetes:
+  label: Kubernetes
+  permalink: /kubernetes
+  description: Kubernetes
