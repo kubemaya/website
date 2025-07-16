@@ -158,7 +158,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} KubeMaya, Website built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} KubeMaya, Website built with Docusaurus :).`,
       },
       prism: {
         theme: prismThemes.github,
