@@ -17,14 +17,4 @@ sidebar_position: 1
 2. Build and package the app with the following command:
 ```
 /bin/bash scripts/kubemaya.sh package sergioarmgpl demo-application v1 amd64
-```   
-***Overriding the Dockefile and YAML***   
-To override the Dockefile with your own set the variable:
 ```
-export OVERWRITE_DOCKERFILE=yes
-```   
-To override the YAML with your own set the variable:
-```
-export OVERWRITE_YAML=yes
-```   
-Then run the command.

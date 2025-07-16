@@ -41,7 +41,7 @@ cd /opt/k3s
 ```
 sudo /bin/bash scripts/kubemaya.sh k3s-install
 ```   
-**Note:** To override to a different architecture than arm64, use the variable K3S_ARCH=<amd64,etc>.
+**Note:** To override to a different architecture than arm64, use the variable `K3S_ARCH=<amd64,etc>`.
 ```
 sudo K3S_ARCH=SOME_VALUE /bin/bash scripts/kubemaya.sh k3s-install
 ```   

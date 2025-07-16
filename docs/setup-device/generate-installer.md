@@ -39,7 +39,7 @@ nginx 1.17.5-alpine linux/arm64/v8
 ```
 /bin/bash kubemaya.sh gen-installer
 ```
-**Note:** To override to a different architecture than arm64, use the variable K3S_ARCH=<amd64,etc>. Also, you have to start docker before run it.   
+**Note:** To override to a different architecture than arm64, use the variable `K3S_ARCH=<amd64,etc>`. Also, you have to start docker before run it.   
 ```
 K3S_ARCH=amd64 /bin/bash kubemaya.sh gen-installer
 ```
