@@ -5,7 +5,8 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'ARM Edge Device & K8s Setup',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    /*Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,*/
+    Svg: require('@site/static/img/banner1.svg').default,
     description: (
       <>
         Easily set up lightweight Kubernetes (via K3s) on edge hardware like 
@@ -16,7 +17,7 @@ const FeatureList = [
   },
   {
     title: 'Air-Gapped Deployment Dashboard',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/banner2.svg').default,
     description: (
       <>
         Intuitive web-based dashboard to deploy, manage, and monitor your AI/ML
@@ -27,7 +28,7 @@ const FeatureList = [
   },
   {
     title: 'Containerized ML Ops Toolkit',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/banner3.svg').default,
     description: (
       <>
         Prebuilt scripts streamline the creation, packaging, and deployment of 
