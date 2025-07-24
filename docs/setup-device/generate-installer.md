@@ -25,13 +25,13 @@ Note: To override the architecture use the following command:
 ```
 K3S_ARCH=amd64 /bin/bash kubemaya.sh clean
 ```   
-4. Set the `container` file that you to include in your installer by setting the content in the images for example:   
+4. Set the `scripts/containers` file that you to include in your installer by setting the content in the images for example:   
 ```
 busybox busybox:1.37.0 linux/arm64/v8
 redis redis:8.0.0-alpine3.21 linux/arm64/v8
 nginx nginx:1.17.5-alpine linux/arm64/v8
 ```   
-**Note:** The format used in this file is ```tar_name image architecture```  
+**Note:** The format used in this file is ```tar_name image architecture```. Redis is preconfigured in `scripts/containers` and you can set custom YAMLs in the directory `scripts/default` that should be run when KubeMaya is installed, also a default YAML for Redis is configured on this directory.  
 
 5. Start you docker service and be sure of having the docker cli   
 
@@ -44,3 +44,7 @@ nginx nginx:1.17.5-alpine linux/arm64/v8
 K3S_ARCH=amd64 /bin/bash kubemaya.sh gen-installer
 ```
 7. Copy the k3s_airgapped_installer.tgz to a USB storage
+
+**Here is a video of how this looks to generate the installer:**
+
+[![asciicast](https://asciinema.org/a/729654.svg)](https://asciinema.org/a/729654)
