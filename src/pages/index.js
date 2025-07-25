@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="AI/ML Applications That Stays on the Edge">
+      description="AI/ML Applications That Stays on Edge Kubernetes">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

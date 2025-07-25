@@ -14,3 +14,6 @@ This year the goals are:
 - Tests to run the platform on Raspbian based on Bookworm ✅
 - KubeMaya GNU/Linux distribution
 - Get first use cases for KubeMaya
+- Ubuntu support
+- Red Hat support
+- How-to for different devices
