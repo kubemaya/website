@@ -71,5 +71,8 @@ kubectl create ingress nginx --rule=/=nginx:80
 Access the nginx in http://192.168.0.100 in the device that
 is connected to the new MAYABOX Network
 
+**Here is a video of how this looks to install KubeMaya:**
+[![asciicast](https://asciinema.org/a/729675.svg)](https://asciinema.org/a/729675)
+
 ## Extra links
 For setup swap memory: https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-20-04
