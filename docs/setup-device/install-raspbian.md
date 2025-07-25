@@ -5,7 +5,7 @@ sidebar_position: 2
 # Install Raspbian
 To install Raspbian follow this steps:
 1. Download Raspberry Imager in: https://www.raspberrypi.com/software
-2. Install the Raspberry Imager for your platform (Inter, ARM)
+2. Install the Raspberry Imager for your platform (Intel, ARM)
 3. Open the Raspberry Imager
 ![](/img/rpi-install/s1.png)
 **Note:** Sometimes the program should ask you for updates.
