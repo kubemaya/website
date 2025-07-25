@@ -21,3 +21,6 @@ Contribute to our archeology project:
 
 Contribute in our website:
 - https://github.com/kubemaya/website
+
+Contact us in:
+- email: info@kubemaya.io
