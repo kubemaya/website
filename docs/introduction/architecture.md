@@ -6,15 +6,14 @@ sidebar_position: 2
 
 KubeMaya use some basic technologies based on the book “Edge Computing Systems with Kubernetes” by Sergio Méndez, based on this book the first technologies that will use this framework are:
 
-- Python (Flask,Scikit-learn,TensorFlow Lite)
-- OpenCV
-- Yolo
+- Python
 - K3s (Light weight Kubernetes)
 - Micropython (For Microcontrollers)
 - Raspberry devices (Pi & Pico)
-- Linux (Raspbian)
+- Linux (Raspbian % Debian based distros)
 - NiceGUI
 - Bash
+- Gum Gum
 
 ## Components
 In the following includes all the components used to run KubeMaya on an ARM devices.
