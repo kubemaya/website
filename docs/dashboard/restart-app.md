@@ -4,4 +4,4 @@ sidebar_position: 5
 
 # Restart Application
 
-Pending
+![](/img/km-install/s7.png)

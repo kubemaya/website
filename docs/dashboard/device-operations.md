@@ -4,4 +4,4 @@ sidebar_position: 4
 
 # Device Operations
 
-Pending
+![](/img/km-install/s5.png)

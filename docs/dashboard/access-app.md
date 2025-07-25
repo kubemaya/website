@@ -4,4 +4,4 @@ sidebar_position: 2
 
 # Access your application
 
-Pending
+![](/img/km-install/s1.png)

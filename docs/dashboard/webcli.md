@@ -4,4 +4,4 @@ sidebar_position: 6
 
 # WebCLI usage
 
-Pending
+![](/img/km-install/s6.png)
