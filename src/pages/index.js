@@ -36,6 +36,9 @@ export default function Home() {
       description="AI/ML Applications That Stays on Edge Kubernetes">
       <HomepageHeader />
       <main>
+      <div className="text--center">
+        <Heading as="h1">KubeMaya Features</Heading>
+      </div>        
         <HomepageFeatures />
       </main>
     </Layout>
