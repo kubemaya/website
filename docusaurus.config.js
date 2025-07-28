@@ -138,10 +138,10 @@ const config = {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/questions/tagged/kubemaya',
               },
-              /*{
-                label: 'LinkedIn',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },*/
+              {
+                label: 'Slack',
+                href: 'https://join.slack.com/t/kubemaya/shared_invite/zt-3a6p203pv-8is7M9ExoaLU54HAJ0nTpg',
+              },
               {
                 label: 'X',
                 href: 'https://x.com/kubemaya',
