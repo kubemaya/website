@@ -135,6 +135,10 @@ const config = {
             title: 'Community',
             items: [
               {
+                label: 'Newsletter',
+                href: 'https://kubemaya.curated.co',
+              },              
+              {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/questions/tagged/kubemaya',
               },
