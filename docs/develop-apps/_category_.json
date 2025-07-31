@@ -1,8 +1,0 @@
-{
-  "label": "Application Development",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "Develop applications to run on KubeMaya."
-  }
-}

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 # Device Info & Operations
 KubeMaya include different operations that you can perform in your device and general information to show. To access these options check the **DEVICE** tab. In the following section with describe how to use the operations and read the general information.  

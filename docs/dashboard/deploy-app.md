@@ -1,10 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Deploy your application
 To deploy an application follow the next steps:  
-1. Build and package your application described in the **Application Development**
+1. Build and package your application described in the **Application Development**. This generates an `.tgz` file in the `package` directory with the name of your appplication.
 2. Open the tab **UPLOAD**  
 
 ![](/img/deploy-app/s1.png)  
