@@ -18,7 +18,7 @@ sidebar_position: 1
 ```
 /bin/bash scripts/kubemaya.sh package <username|namespace> <application-name> <version> <amd64|arm64>
 ```
-3. This will generate a file in the directory package called <application-name>.tgz  
+3. This will generate a file in the directory package called `<application-name>.tgz`  
 
 **Note:** That file is used to deploy your application using the dashboard. Check the next page for this.  
 
