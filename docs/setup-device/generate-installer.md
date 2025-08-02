@@ -8,7 +8,7 @@ sidebar_position: 1
 In your Developer Machine do the next:
 1. Clone the repository
 ```
-git clone https://github.com/sergioarmgpl/kubemaya.git
+git clone https://github.com/kubemaya/kubemaya.git
 ```
 
 2. Change to the airgap directory
