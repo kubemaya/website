@@ -2,8 +2,9 @@
 sidebar_position: 3
 ---
 
-# Install KubeMaya
+# Install & Uninstall KubeMaya
 
+## Install KubeMaya
 In your edge device run the following steps:
 1. Set your WLAN location before start (sudo raspi-config Localisation Options > WLAN Country)
 2. Set a temporary WIFI Connection with nmtui
@@ -46,7 +47,7 @@ sudo /bin/bash scripts/kubemaya.sh k3s-install
 sudo K3S_ARCH=SOME_VALUE /bin/bash scripts/kubemaya.sh k3s-install
 ```   
 
-## Cleaning previous installation
+## Uninstall KubeMaya
 To clean a previous installation run the following commands
 1. To uninstall K3s run:
 ```
@@ -56,20 +57,6 @@ k3s-uninstall.sh
 ```
 rm -R /opt/k3s
 ```   
-
-## Testing your installation
-Listing container images in the installation:
-```
-sudo ctr containers list 
-```
-Run the following commands in the device to install nginx:
-```
-kubectl create deploy nginx --image=nginx:1.17.5-alpine
-kubectl expose deploy nginx --port=80
-kubectl create ingress nginx --rule=/=nginx:80
-```
-Access the nginx in http://192.168.0.100 in the device that
-is connected to the new MAYABOX Network
 
 **Here is a video of how this looks to install KubeMaya:**
 [![asciicast](https://asciinema.org/a/729675.svg)](https://asciinema.org/a/729675)
