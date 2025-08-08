@@ -32,7 +32,7 @@ sudo /bin/bash /opt/k3s/scripts/kubemaya.sh install-dep
 ```
 /bin/bash /opt/k3s/scripts/kubemaya.sh set-flags
 ```
-**Note:** This restarts your device, also for Debian you have to set the following flag systemd.unified_cgroup_hierarchy=1 in the variable GRUB_CMDLINE_LINUX_DEFAULT inside the file /etc/default/grub and restart your device.  
+**Note:** This restarts your device, also for Debian you have to set the following flag systemd.unified_cgroup_hierarchy=1 in the variable GRUB_CMDLINE_LINUX_DEFAULT inside the file /etc/default/grub and restart your device.  After that run `sudo update-grup` and then restart with `sudo reboot`. For Debian is need it to install SSH and sudo with all the necessary permissions for the user that you are going to use to install KubeMaya. Also check if your device already has the CGROUPS activated by running the following command: `stat -fc %T /sys/fs/cgroup/`.
 8. Disable your current wifi-connection if set (nmtui in Raspbian)  
 9. Change to the installer path
 ```
