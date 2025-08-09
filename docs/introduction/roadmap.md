@@ -13,4 +13,4 @@ This year the goals are:
 - Tests to Python applications on Raspberry 4B ✅
 - Tests to run the platform on Raspbian based on Bookworm ✅
 - Get first use cases for KubeMaya
-- Optimize KubeMaya Dashboard
+- Optimize KubeMaya Dashboard ✅
